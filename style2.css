@@ -1,0 +1,390 @@
+/*----------------------------------------------------------------------------------
+                                     MEDIAQUREY
+---------------------------------------------------------------------------------**/
+
+@media (max-width: 768px) {
+#nav > a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: lighter;
+  position: fixed;
+  z-index: 4;
+  padding: 2px 10px;
+  background-color: #0091ea;
+  color: #ffffff;
+  
+  border-radius: 0;
+  font-size: 12px;
+}
+#nav > a:hover {
+  background-color: #045e96;
+}
+#nav :nth-child(1) {
+  position: fixed;
+  left: 250px;
+  top: 8px;
+}
+#nav :nth-child(2) {
+  position: fixed;
+  left: 298px;
+  top: 34px;
+}
+#nav :nth-child(3) {
+  position: fixed;
+  left: 315px;
+  top: 8px;
+}
+#nav :nth-child(4) {
+  position: fixed;
+  left: 392px;
+  top: 8px;
+}
+
+#nav :nth-child(5) {
+  position: fixed;
+  left: 362px;
+  top: 34px;
+}
+ #bg {
+   width: 100%;
+   height: auto;
+ }
+ .qoutes {
+   position: absolute;
+   left: 80px;
+   top: 50px;
+   font-size: 40px;
+ }
+
+ .qoutes span {
+   position: absolute;
+   left: 90px;
+ }
+ #btn1 {
+   position: absolute;
+   left: 200px;
+   top: 230px;
+   padding: 2px 8px;
+   font-size: 15px;
+ }
+ #qoute2 {
+   position: absolute;
+   left: 60px;
+   top: 150px;
+   font-size: 25px;
+ }
+ /*-----------produts-------------**/
+
+ /*---------------------------------
+             TV
+---------------------------------**/
+
+ .sqaure {
+   width: 90%;
+   height: 300px;
+ }
+ #sqaure1 {
+   position: absolute;
+   left: 25px;
+   top: 290px;
+ }
+ #sqaure2 {
+   position: absolute;
+   left: 25px;
+   top: 590px;
+ }
+ #tv {
+   width: 350px;
+   height: 300px;
+   position: absolute;
+   left: 60px;
+   top: 290px;
+ }
+ #pr1 {
+   position: absolute;
+   left: 20px;
+   top: 550px;
+   color: #ffffff;
+   z-index: 3;
+ }
+ #product1-info1 {
+   font-size: 30px;
+   position: relative;
+   left: 120px;
+   top: 30px;
+ }
+ #product1-info2 {
+   position: relative;
+   left: 80px;
+   top: 19px;
+   font-size: 20px;
+ }
+ #product1-info3 {
+   position: relative;
+   left: 40px;
+   top: 30px;
+   font-size: 20px;
+ }
+ #product1-info4 {
+   position: relative;
+   left: 120px;
+   top: -20px;
+   font-size: 65px;
+ }
+ #product1-info5 {
+   position: relative;
+   left: 160px;
+   top: -40px;
+   padding: 8px 30px;
+ }
+ #offer-tag {
+   position: absolute;
+   left: 5px;
+   top: 540px;
+   width: 120px;
+   height: 120px;
+ }
+ #off-text {
+   position: absolute;
+   top: 555px;
+   left: 35px;
+   font-size: 25px;
+ }
+ #off-text span {
+   font-size: 10px;
+ }
+ #hurry-up {
+   position: absolute;
+   top:600px;
+   left: 40px;
+   color: #ffffff;
+   z-index: 3;
+   font-size: 13px;
+ }
+ /*---------------------------------
+           mobile
+---------------------------------**/
+#sqaure3 {
+   position: absolute;
+   left: 25px;
+   top: 900px;
+ }
+ #sqaure4 {
+   position: absolute;
+   left: 25px;
+   top: 1200px;
+ }
+ #mobile {
+   width: 340px;
+   height: 270px;
+   position: absolute;
+   left: 70px;
+   top: 915px;
+ }
+ #pr2 {
+   position: absolute;
+   left: 20px;
+   top: 1160px;
+   color: #ffffff;
+   z-index: 3;
+ }
+ #product2-info1 {
+   font-size: 30px;
+   position: relative;
+   left: 100px;
+   top: 30px;
+ }
+ #product2-info2 {
+   position: relative;
+   left: 80px;
+   top: 19px;
+   font-size: 20px;
+ }
+ #product2-info3 {
+   position: relative;
+   left: 40px;
+   top: 30px;
+   font-size: 20px;
+ }
+ #product2-info4 {
+   position: relative;
+   left: 140px;
+   top: -20px;
+   font-size: 65px;
+ }
+ #product2-info5 {
+   position: relative;
+   left: 160px;
+   top: -40px;
+   padding: 8px 30px;
+ }
+
+ /*---------------------------------
+           SHOSES
+---------------------------------**/
+ #sqaure5 {
+   position: absolute;
+   left: 25px;
+   top: 1510px;
+ }
+ #sqaure6 {
+   position: absolute;
+   left: 25px;
+   top: 1810px;
+ }
+ #shose {
+   width: 330px;
+   height: 260px;
+   position: absolute;
+   left: 60px;
+   top: 1540px;
+ }
+ #pr3 {
+   position: absolute;
+   left: 20px;
+   top: 1770px;
+   color: #ffffff;
+   z-index: 3;
+ }
+ #product3-info1 {
+   font-size: 30px;
+   position: relative;
+   left: 160px;
+   top: 30px;
+ }
+ #product3-info2 {
+   position: relative;
+   left: 80px;
+   top: 19px;
+   font-size: 20px;
+ }
+ #product3-info3 {
+   position: relative;
+   left: 40px;
+   top: 30px;
+   font-size: 20px;
+ }
+ #product3-info4 {
+   position: relative;
+   left: 150px;
+   top: -20px;
+   font-size: 65px;
+ }
+ #product3-info5 {
+   position: relative;
+   left: 160px;
+   top: -40px;
+   padding: 8px 30px;
+ }
+ /*---------------------------------
+          WATCHES
+---------------------------------**/
+ #sqaure7 {
+   position: absolute;
+   left: 25px;
+   top: 2120px;
+ }
+ #sqaure8 {
+   position: absolute;
+   left: 25px;
+   top: 2420px;
+ }
+ #watch {
+   width: 330px;
+   height: 260px;
+   position: absolute;
+   left: 60px;
+   top: 2130px;
+ }
+ #pr4 {
+   position: absolute;
+   left: 20px;
+   top: 2380px;
+   color: #ffffff;
+   z-index: 3;
+ }
+ #product4-info1 {
+   font-size: 30px;
+   position: relative;
+   left: 150px;
+   top: 30px;
+ }
+ #product4-info2 {
+   position: relative;
+   left: 80px;
+   top: 19px;
+   font-size: 20px;
+ }
+ #product4-info3 {
+   position: relative;
+   left: 40px;
+   top: 30px;
+   font-size: 20px;
+ }
+ #product4-info4 {
+   position: relative;
+   left: 150px;
+   top: -20px;
+   font-size: 65px;
+ }
+ #product4-info5 {
+   position: relative;
+   left: 160px;
+   top: -40px;
+   padding: 8px 30px;
+ }
+
+ /**--------------------------------
+         fotter
+--------------------------------**/
+ #footer {
+   top: 2750px;
+   height: 250px;
+ }
+ #smimg1 {
+   position: absolute;
+   top: 2750px;
+   left: 50px;
+ }
+ #smimg2 {
+   position: absolute;
+   top: 2750px;
+   left: 150px;
+ }
+ #smimg3 {
+   position: absolute;
+   top: 2750px;
+   left: 250px;
+ }
+ #smimg4 {
+   position: absolute;
+   top: 2750px;
+   left: 350px;
+ }
+ #footerpara {
+   position: absolute;
+   top: 2830px;
+   left: 10px;
+   font-size: 12px;
+ }
+ #footerlogo {
+   width: 170px;
+   height: 130px;
+   position: absolute;
+   top: 2840px;
+   left: 160px;
+ }
+ #developer {
+   position: absolute;
+   top: 2900px;
+   left: 160px;
+   font-size: 15px;
+ } 
+ #e-mail {
+   position: absolute;
+   top: 2950px;
+   left: 145px;
+
+ }
+} 
+
